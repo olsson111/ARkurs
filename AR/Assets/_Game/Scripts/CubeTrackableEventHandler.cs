@@ -5,8 +5,10 @@ using Vuforia;
 
 public class CubeTrackableEventHandler : DefaultTrackableEventHandler {
 
-    public string m_FoundMessage;
-    public string m_LostMessage;
+    [SerializeField]
+    private string m_FoundMessage;
+    [SerializeField]
+    private string m_LostMessage;
 
 
     //Skapar och deklarerar eventet
